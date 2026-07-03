@@ -5,7 +5,7 @@
 <h1 align="center">Hi there 👋 I'm Wahab Hammoud</h1>
 
 <p align="center">
-  🎓 Final-Year AI & Data Engineering Student &nbsp;|&nbsp; 🤖 RAG Systems & LLM Engineer &nbsp;|&nbsp; 📊 MLOps & Big Data
+  🎓 Final-Year AI & Big Data Engineering Student &nbsp;|&nbsp; 🤖 RAG & LLM Systems &nbsp;|&nbsp; 🏭 Industrial AI &nbsp;|&nbsp; 📊 MLOps & Data Engineering
 </p>
 
 <p align="center">
@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/badge/Portfolio-wahab--hammoud.vercel.app-1B4F8A?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/wahab-hammoud-1658632b6/" target="_blank">
+  <a href="https://www.linkedin.com/in/wahab-hammoud" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Wahab%20Hammoud-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
@@ -21,88 +21,120 @@
     <img src="https://img.shields.io/badge/Email-wahab.hammoud2002@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://malt.com/profile/wahabhammoud" target="_blank">
-    <img src="https://img.shields.io/badge/Malt-Freelance%20Profile-FC4C5E?style=for-the-badge&logo=data:image/png;base64,&logoColor=white" />
+  <a href="https://calendly.com/wahab-hammoud2002/30min" target="_blank">
+    <img src="https://img.shields.io/badge/📅%20Book%20a%20Call-Calendly-006BFF?style=for-the-badge&logo=calendly&logoColor=white" />
   </a>
 </p>
 
 ---
 
-## 🚀 About Me
+## 🧠 About Me
 
-I'm a final-year **AI & Data Engineering student** at École Polytechnique d'Agadir, currently completing my PFE at **SEGULA Technologies** (Renault Technocentre).
+I'm a final-year **Software Engineering student** specialized in **AI & Big Data** at École Polytechnique d'Agadir (Universiapolis), completing my graduation project at **SEGULA Technologies × Renault Technocentre**.
 
-I specialize in building **production-grade AI systems** — not just demos:
+I don't build demos — I build **production-grade AI systems** with real data, real pipelines, and measurable business impact:
 
-- 🧠 **RAG & LLM Systems** — Hybrid RAG agents, LangChain/LangGraph, FAISS, anti-hallucination architectures
-- 📦 **Data Engineering** — ETL pipelines, PySpark, Kafka, MongoDB, real-time processing at scale
-- 🤖 **ML in Production** — Risk classifiers (F1: 0.85), workload predictors (R²: 0.68), model monitoring with MLflow
-- 🏗️ **MLOps** — Docker, FastAPI, CI/CD, Streamlit dashboards
+- 🏭 **Industrial AI & Data Engineering** — End-to-end ETL pipelines, Apache Airflow orchestration, MongoDB Atlas, PySpark, Kafka
+- 🤖 **RAG & LLM Systems** — Hybrid RAG agents, LangChain/LangGraph, ChromaDB, FAISS, anti-hallucination architectures
+- 📊 **Machine Learning in Production** — Risk classifiers (97% accuracy), anomaly detection (IsolationForest), quantile forecasting, SHAP explainability
+- 🏗️ **MLOps** — FastAPI microservices, Docker, CI/CD, Pytest (106 tests), MLflow monitoring, Streamlit dashboards
 
-🏆 **National Hackathon Finalist** — RamadanIA 2026 (Rabat) | Built a full AI system in 48 hours  
-🥇 **Best Entrepreneurial Potential** — FEECRA Universiapolis 2025  
-🌍 **International AI Summer School** — Université de Lorraine, France (2025)
+### 🏆 Highlights
+
+| | |
+|---|---|
+| 🥇 | **National Finalist** — RamadanIA Hackathon 2026 (Rabat) · Prix Impact Territorial & Utilité Publique · 40 teams · 12 regions · +4,000 participants · built in **72 hours** |
+| 🏅 | **Best Entrepreneurial Potential** — 1st Prize FEECRA 2025, Universiapolis |
+| 🌍 | **International AI Summer School** — Université de Lorraine, Nancy, France (July 2025) |
+| 🎓 | **PhD Applicant** in Artificial Intelligence — Industrial AI, LLMs, XAI |
 
 ---
 
-## 🔥 Recent Work
+## 🔥 Production Work
 
-### 🏭 SEGULA Technologies — PFE (Feb 2026 – Present)
-> AI-driven supply chain intelligence platform for Renault prototype logistics
+### 🏭 SEGULA Technologies × Renault Technocentre — AI & Data Engineer · PFE (Feb – Jun 2026)
+> End-to-end industrial AI platform for supply chain optimization at an automotive OEM
 
-- Automated ETL pipeline processing **18,000+ records** from heterogeneous Excel sources → MongoDB
-- ML module: **risk classifier (F1: 0.85, Acc: 0.93)** + workload predictor (R²: 0.68) + supplier scoring
-- Full Python stack: scikit-learn, pandas, FastAPI, Docker — pipeline runs in **under 60 seconds**
+- Automated ETL pipeline (Apache Airflow 2.9, 2 DAGs, 12 tasks) processing **25,070 real procurement orders** from legacy enterprise systems — **10-minute execution cycle**, Mon–Fri, zero manual intervention
+- **6 ML models in production**: risk classifier (**97% accuracy**, 1,789 high-risk orders flagged), quantile delivery predictor (p10/p50/p90), IsolationForest anomaly detection (7,029 cases), KMeans supplier clustering — with **SHAP explainability**
+- **Conversational RAG agent**: ChromaDB (191 chunks), Llama 3.3 70B (Groq), 4 live tool integrations, answers operational queries in French on real data
+- **MLOps**: FastAPI microservice (8 endpoints), Docker Compose, **106 Pytest tests (100% pass rate)**, GitHub Actions CI/CD, 326 commits
+- **BI layer**: 8-tab Streamlit dashboard (KPIs, risk heatmaps, supplier scorecards, PDF export)
+- Stack: `Python` · `Apache Airflow` · `MongoDB Atlas` · `scikit-learn` · `FastAPI` · `Docker` · `Streamlit` · `LangChain` · `ChromaDB`
 
-### 🤖 3D Smart Factory — AI Engineering Intern (Jul–Sep 2025)
-> Production-grade hybrid RAG agent for enterprise knowledge management
+---
 
-- **85% global accuracy** · **<5% hallucination rate** · **+50% team efficiency**
-- Hybrid architecture: LangGraph autonomous agents + deterministic workflows
-- Stack: Python · LangChain/LangGraph · FAISS · GPT-4 · Groq · MLflow · Docker
+### 🤖 3D Smart Factory — AI Engineer Intern (Jul – Sep 2025)
+> Production hybrid RAG system for enterprise knowledge management
 
-### 🌐 HEBERDOMAINE — Web Dev Intern (Jun–Jul 2024)
-> Full-stack platform with real-time booking API
+- Designed and shipped a hybrid RAG system combining LangGraph deterministic workflows with autonomous agent layers
+- **RAGAS evaluation** on 150 real business queries: **85% accuracy · <5% hallucination rate · +50% efficiency gain** vs baseline
+- Real-time monitoring with MLflow, data anonymisation, access control
+- Stack: `LangChain` · `LangGraph` · `ChromaDB` · `FAISS` · `Llama` · `FastAPI` · `MLflow` · `Docker`
 
-- **25% reduction** in page load time · **99% system availability**
-- Stack: Laravel · PHP 8 · MySQL · REST APIs
+---
+
+### 🌐 HEBERDOMAINE — Backend Developer (Jun – Jul 2024)
+> Real-time booking platform API
+
+- Built REST API (Laravel/PHP 8, MySQL, Redis) — **25% load time reduction**, **99% availability**
+- Stack: `Laravel` · `PHP 8` · `MySQL` · `Redis` · `REST APIs`
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Stack | Impact |
+|---------|-------------|-------|--------|
+| 🏭 **SupplyMind** | Industrial AI platform: ETL + 6 ML models + RAG agent + BI dashboard for Renault supply chain | Python · Airflow · LangChain · Docker · MongoDB | 25,070 orders · 97% accuracy |
+| 🤖 **Advanced Hybrid RAG Orchestrator** | Multi-agent document QA: LangGraph + FAISS + ChromaDB + anti-hallucination grounding | LangChain · LangGraph · FAISS · ChromaDB | 85% accuracy · <5% hallucination |
+| 🔧 **Predictive Maintenance System** | Real-time industrial IoT pipeline for equipment failure prediction | Kafka · PySpark · MongoDB · scikit-learn · Docker | Streaming at scale |
+| 🌿 **Amalay — AI Platform for Rural Tourism** | AI matching platform for rural tourism built in 72h at a national hackathon | Python · React · AI/ML | 🥇 National Finalist · Regional Winner |
+| 💬 **Sentiment Analysis — FC Barcelona UCL** | Large-scale social media NLP: tweet collection, sentiment classification, trend analysis | Python · NLP · scikit-learn | Large-scale social data |
 
 ---
 
 ## 🛠️ Tech Stack
 
-**AI & LLM Systems**
+**AI & LLM**
+
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0057e7?style=for-the-badge&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 **Data Engineering & Big Data**
+
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 **MLOps & Backend**
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
 **Cloud & DevOps**
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 **Programming**
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
@@ -110,27 +142,18 @@ I specialize in building **production-grade AI systems** — not just demos:
 
 ---
 
-## 📌 Featured Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| 🤖 **[SupplyMind AI](https://wahab-hammoud.vercel.app)** | Supply chain intelligence platform with demand forecasting & AI copilot | Python · React · LangChain · Docker · AWS |
-| 🏭 **Hybrid RAG Agent** | Enterprise knowledge system — 85% accuracy, <5% hallucinations, deployed in production | LangChain · FAISS · GPT-4 · MLflow · Docker |
-| 🔧 **Predictive Maintenance** | Real-time IoT pipeline for industrial failure detection | Kafka · PySpark · Scikit-learn · Docker |
-| 🏥 **Telemedicine Platform** | Video consultations, AI chatbot, e-commerce | React · Laravel · TensorFlow |
-
----
-
 ## 📜 Certifications
 
-| Certification | Provider | Year |
-|--------------|----------|------|
-| 🟢 AI Agent Builder with n8n | Simplilearn | 2025 |
-| 🟢 Business Strategy: Business Model Canvas | Coursera | 2025 |
-| 🟢 Introduction to Big Data with Spark & Hadoop | IBM | 2025 |
-| 🟢 Machine Learning with PySpark | Coursera | 2025 |
-| 🟢 React — Higher Order Components | Coursera | 2025 |
-| 🟢 AI for Everyone | Coursera | 2024 |
+| Certification | Provider | Year | Status |
+|--------------|----------|------|--------|
+| 🟡 Convolutional Neural Networks | DeepLearning.AI & Universiapolis | 2026 | ⏳ In Progress |
+| 🟢 AWS Cloud Technical Essentials | AWS | 2026 | ✅ |
+| 🟢 Foundations of Cybersecurity | Google | 2026 | ✅ |
+| 🟢 AI Agent Builder with n8n | Simplilearn | 2025 | ✅ |
+| 🟢 Big Data with Spark & Hadoop | IBM | 2025 | ✅ |
+| 🟢 Machine Learning with PySpark | Coursera | 2025 | ✅ |
+| 🟢 Business Strategy: Business Model Canvas | Coursera | 2025 | ✅ |
+| 🟢 AI for Everyone | DeepLearning.AI | 2024 | ✅ |
 
 ---
 
@@ -161,7 +184,7 @@ I specialize in building **production-grade AI systems** — not just demos:
     <img src="https://img.shields.io/badge/📅 Book a call-Calendly-006BFF?style=for-the-badge&logo=calendly&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/wahab-hammoud-1658632b6/" target="_blank">
+  <a href="https://www.linkedin.com/in/wahab-hammoud" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   &nbsp;
@@ -171,5 +194,5 @@ I specialize in building **production-grade AI systems** — not just demos:
 </p>
 
 <p align="center">
-  <i>Open to freelance projects, collaborations, and full-time opportunities from June 2026.</i>
+  <i>🎓 PhD applicant in AI · Open to research collaborations, industrial AI projects, and full-time opportunities from October 2026.</i>
 </p>
