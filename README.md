@@ -46,7 +46,6 @@ I don't build demos — I build **production-grade AI systems** with real data, 
 | 🥇 | **National Finalist** — RamadanIA Hackathon 2026 (Rabat) · Prix Impact Territorial & Utilité Publique · 40 teams · 12 regions · +4,000 participants · built in **72 hours** |
 | 🏅 | **Best Entrepreneurial Potential** — 1st Prize FEECRA 2025, Universiapolis |
 | 🌍 | **International AI Summer School** — Université de Lorraine, Nancy, France (July 2025) |
-| 🎓 | **PhD Applicant** in Artificial Intelligence — Industrial AI, LLMs, XAI |
 
 ---
 
