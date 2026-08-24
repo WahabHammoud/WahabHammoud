@@ -145,7 +145,7 @@ I don't build demos — I build **production-grade AI systems** with real data, 
 
 | Certification | Provider | Year | Status |
 |--------------|----------|------|--------|
-| 🟡 Convolutional Neural Networks | DeepLearning.AI & Universiapolis | 2026 | ⏳ In Progress |
+| 🟡 Convolutional Neural Networks | DeepLearning.AI & Universiapolis | 2026 | ✅ |
 | 🟢 AWS Cloud Technical Essentials | AWS | 2026 | ✅ |
 | 🟢 Foundations of Cybersecurity | Google | 2026 | ✅ |
 | 🟢 AI Agent Builder with n8n | Simplilearn | 2025 | ✅ |
